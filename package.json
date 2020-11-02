@@ -1,0 +1,21 @@
+{
+  "name": "oreki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "vuepress",
+  "author": "kevin",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1",
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.5.7"
+  }
+}
